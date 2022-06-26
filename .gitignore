@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### This app
+src/com/otumian/database/*
