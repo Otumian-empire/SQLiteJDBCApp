@@ -5,3 +5,4 @@
 - InsertData
 - SelectData
 - UpdateData
+- DeleteData

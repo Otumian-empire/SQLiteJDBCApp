@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="SelectData.java: Select rows from table">
-      <change afterPath="$PROJECT_DIR$/src/com/otumian/tutorial/UpdateData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="UpdateData.java: Update rows from table">
+      <change afterPath="$PROJECT_DIR$/src/com/otumian/tutorial/DeleteData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/otumian/tutorial/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/tutorial/notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.InsertData" />
+    <configuration name="DeleteData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.DeleteData" />
       <module name="SQLiteJDBCApp" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.RegisterConnection" />
+    <configuration name="InsertData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.InsertData" />
       <module name="SQLiteJDBCApp" />
       <extension name="coverage">
         <pattern>
@@ -112,10 +111,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SelectData" />
+        <item itemvalue="Application.DeleteData" />
         <item itemvalue="Application.UpdateData" />
         <item itemvalue="Application.InsertData" />
         <item itemvalue="Application.CreateTable" />
-        <item itemvalue="Application.RegisterConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656259721091</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UpdateData.java: Update rows from table">
+      <created>1656260970794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656260970794</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +205,8 @@
     <MESSAGE value="InsertData.java: Insert data into the task table" />
     <MESSAGE value="DatabaseConnection.java: create a simple means to connect to the database" />
     <MESSAGE value="SelectData.java: Select rows from table" />
-    <option name="LAST_COMMIT_MESSAGE" value="SelectData.java: Select rows from table" />
+    <MESSAGE value="UpdateData.java: Update rows from table" />
+    <option name="LAST_COMMIT_MESSAGE" value="UpdateData.java: Update rows from table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
