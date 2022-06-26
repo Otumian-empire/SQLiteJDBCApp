@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="add database to db navigator">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_36_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/otumian/tutorial/RegisterConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="CreateTable.java: Create a database table">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/otumian/tutorial/InsertData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/otumian/util/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQLiteJDBCApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SQLiteJDBCApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/otumian/tutorial/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/tutorial/notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,33 @@
     "project.structure.side.proportion": "0.48045978"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.InsertData">
+    <configuration name="CreateTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.CreateTable" />
+      <module name="SQLiteJDBCApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.otumian.tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.InsertData" />
+      <module name="SQLiteJDBCApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.otumian.tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.RegisterConnection" />
       <module name="SQLiteJDBCApp" />
@@ -60,6 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertData" />
+        <item itemvalue="Application.CreateTable" />
         <item itemvalue="Application.RegisterConnection" />
       </list>
     </recent_temporary>
@@ -80,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656233890597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add database to db navigator">
+      <created>1656238154092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656238154092</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CreateTable.java: Create a database table">
+      <created>1656254325646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656254325646</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +139,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="add database to db navigator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add database to db navigator" />
+    <MESSAGE value="CreateTable.java: Create a database table" />
+    <option name="LAST_COMMIT_MESSAGE" value="CreateTable.java: Create a database table" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.sqlite.SQLiteException" package="org.sqlite" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

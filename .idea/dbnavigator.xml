@@ -29,7 +29,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="72ab7333-f7c3-47f7-bcc4-803c72b6e81b">
-      <console name="SQLiteJDBCApp" type="STANDARD" schema="main" session="Main" />
+      <console name="SQLiteJDBCApp" type="STANDARD" schema="main" session="Main"><![CDATA[select * from task;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -73,7 +73,7 @@
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="3.3" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
