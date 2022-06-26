@@ -3,3 +3,4 @@
 - RegisterConnection
 - CreateTable
 - InsertData
+- SelectData
