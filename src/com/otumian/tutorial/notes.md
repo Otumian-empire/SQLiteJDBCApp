@@ -2,3 +2,4 @@
 
 - RegisterConnection
 - CreateTable
+- InsertData
