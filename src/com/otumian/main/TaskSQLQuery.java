@@ -10,4 +10,14 @@ public class TaskSQLQuery {
     public static final String UPDATE = "UPDATE task SET title=?, description=? WHERE id=?";
 
     public static final String DELETE = "DELETE FROM task WHERE id=?";
+
+    public static String CREATE_TABLE() {
+        String sql = "CREATE TABLE IF NOT EXISTS \"task\" (";
+        sql += "\"id\" INTEGER,";
+        sql += "\"title\" TEXT NOT NULL,";
+        sql += "\"description\"	TEXT,";
+        sql += "PRIMARY KEY(\"id\" AUTOINCREMENT));";
+
+        return sql;
+    }
 }
