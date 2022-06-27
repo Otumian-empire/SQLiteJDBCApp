@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class TaskController {
-    TaskRepository repository = new TaskRepository();
+    private final TaskRepository repository = new TaskRepository();
 
     public void createTask() {
         try {
