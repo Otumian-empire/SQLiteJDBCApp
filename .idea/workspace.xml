@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="DeleteData.java: delete rows from table">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/otumian/main/Task.java" afterDir="false" />
+    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="Create task repository">
       <change afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/otumian/tutorial/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/tutorial/notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.48045978",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.breadcrumbs"
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
 }]]></component>
   <component name="RunManager" selected="Application.TaskMapper">
@@ -115,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UpdateData" />
         <item itemvalue="Application.TaskMapper" />
         <item itemvalue="Application.SelectData" />
-        <item itemvalue="Application.DeleteData" />
-        <item itemvalue="Application.UpdateData" />
         <item itemvalue="Application.InsertData" />
+        <item itemvalue="Application.DeleteData" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +192,35 @@
       <option name="project" value="LOCAL" />
       <updated>1656265474536</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update app files">
+      <created>1656291667503</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656291667503</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Create Task Model">
+      <created>1656291960645</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656291960645</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create sql queries">
+      <created>1656291988438</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656291988438</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create task repository">
+      <created>1656292020161</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656292020161</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +244,11 @@
     <MESSAGE value="SelectData.java: Select rows from table" />
     <MESSAGE value="UpdateData.java: Update rows from table" />
     <MESSAGE value="DeleteData.java: delete rows from table" />
-    <option name="LAST_COMMIT_MESSAGE" value="DeleteData.java: delete rows from table" />
+    <MESSAGE value="update app files" />
+    <MESSAGE value="Create Task Model" />
+    <MESSAGE value="Create sql queries" />
+    <MESSAGE value="Create task repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create task repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
