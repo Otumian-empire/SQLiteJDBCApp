@@ -48,6 +48,10 @@ public class TaskView {
 
         System.out.print("Enter id: ");
         int id = scanner.nextInt();
+        scanner.nextLine();
+
+        // the extra scanner.nextLine(); is done to move the cursor to the next line
+        // int id = Integer.parseInt(scanner.nextLine());
 
         System.out.print("Enter title: ");
         String title = scanner.nextLine();
