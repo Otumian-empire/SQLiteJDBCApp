@@ -7,13 +7,22 @@ import java.util.Map;
 public class TaskController {
     private final TaskRepository repository = new TaskRepository();
 
+    public TaskController() {
+        try {
+            repository.createTable();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+            System.out.println("Could not create table");
+        }
+    }
+
     public void createTask() {
         try {
             Map<String, String> form = TaskView.createView();
 
             Task task = new Task();
             task.setTitle(form.get("title"));
-            task.setTitle(form.get("description"));
+            task.setDescription(form.get("description"));
 
             repository.save(task);
 
