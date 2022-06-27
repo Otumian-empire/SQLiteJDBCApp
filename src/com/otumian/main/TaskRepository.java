@@ -22,7 +22,6 @@ public class TaskRepository {
     }
 
     public Task findById(int id) throws SQLException {
-        // Map ResultSet to Task Object
         Connection connection = DatabaseConnection.connection(url);
 
         PreparedStatement statement = connection.prepareStatement(TaskSQLQuery.SELECT);
@@ -39,7 +38,6 @@ public class TaskRepository {
     }
 
     public ArrayList<Task> findAll() throws SQLException {
-        // Map ResultSet to Task Object
         Connection connection = DatabaseConnection.connection(url);
         Statement statement = connection.createStatement();
 
@@ -81,5 +79,18 @@ public class TaskRepository {
         statement.executeUpdate();
 
         connection.close();
+    }
+
+    public void createTable() throws SQLException {
+        try {
+            Connection connection = DatabaseConnection.connection(url);
+
+            Statement statement = connection.createStatement();
+            statement.execute(TaskSQLQuery.CREATE_TABLE());
+
+            connection.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
