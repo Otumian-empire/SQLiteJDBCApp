@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="TaskController.java: make final since we don't want the user to have access to it">
+    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="create table in the controller constructor">
       <change afterPath="$PROJECT_DIR$/src/com/otumian/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/otumian/main/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/otumian/main/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/otumian/main/TaskSQLQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskSQLQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/otumian/main/TaskView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -251,7 +248,42 @@
       <option name="project" value="LOCAL" />
       <updated>1656350882829</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix skipping input for the title input after the id input">
+      <created>1656360809339</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1656360809339</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add sql query to create table">
+      <created>1656360840200</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656360840200</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update app file">
+      <created>1656360889066</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1656360889066</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add repository to create a table">
+      <created>1656360935778</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1656360935778</updated>
+    </task>
+    <task id="LOCAL-00022" summary="create table in the controller constructor">
+      <created>1656360984547</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656360984547</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,7 +315,12 @@
     <MESSAGE value="TaskView.java: add a view that will allow a user to interact with the app" />
     <MESSAGE value="TaskController.java: add a controller that will map a view to a repository based on the user's interactivity the app" />
     <MESSAGE value="TaskController.java: make final since we don't want the user to have access to it" />
-    <option name="LAST_COMMIT_MESSAGE" value="TaskController.java: make final since we don't want the user to have access to it" />
+    <MESSAGE value="fix skipping input for the title input after the id input" />
+    <MESSAGE value="add sql query to create table" />
+    <MESSAGE value="update app file" />
+    <MESSAGE value="add repository to create a table" />
+    <MESSAGE value="create table in the controller constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="create table in the controller constructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

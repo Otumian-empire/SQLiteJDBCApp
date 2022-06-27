@@ -33,6 +33,7 @@ public class TaskView {
 
         System.out.print("Enter id: ");
         int id = scanner.nextInt();
+        scanner.nextLine(); // So that the cursor will be taken to the next line
 
         input.put("id", id);
 
