@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="Create task repository">
-      <change afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskView.java" afterDir="false" />
+    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="TaskController.java: make final since we don't want the user to have access to it">
+      <change afterPath="$PROJECT_DIR$/src/com/otumian/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/otumian/main/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/otumian/main/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/otumian/main/TaskSQLQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskSQLQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/otumian/main/TaskView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +44,12 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.48045978",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing"
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TaskMapper">
-    <configuration name="DeleteData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.DeleteData" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="InsertData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.InsertData" />
       <module name="SQLiteJDBCApp" />
       <extension name="coverage">
         <pattern>
@@ -58,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.InsertData" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.otumian.main.Main" />
       <module name="SQLiteJDBCApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.otumian.tutorial.*" />
+          <option name="PATTERN" value="com.otumian.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.UpdateData" />
         <item itemvalue="Application.TaskMapper" />
         <item itemvalue="Application.SelectData" />
         <item itemvalue="Application.InsertData" />
-        <item itemvalue="Application.DeleteData" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +223,35 @@
       <option name="project" value="LOCAL" />
       <updated>1656292020161</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="workspace.xml">
+      <created>1656347371380</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656347371380</updated>
+    </task>
+    <task id="LOCAL-00015" summary="TaskView.java: add a view that will allow a user to interact with the app">
+      <created>1656347454282</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656347454282</updated>
+    </task>
+    <task id="LOCAL-00016" summary="TaskController.java: add a controller that will map a view to a repository based on the user's interactivity the app">
+      <created>1656347531634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656347531634</updated>
+    </task>
+    <task id="LOCAL-00017" summary="TaskController.java: make final since we don't want the user to have access to it">
+      <created>1656350882829</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656350882829</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +279,11 @@
     <MESSAGE value="Create Task Model" />
     <MESSAGE value="Create sql queries" />
     <MESSAGE value="Create task repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create task repository" />
+    <MESSAGE value="workspace.xml" />
+    <MESSAGE value="TaskView.java: add a view that will allow a user to interact with the app" />
+    <MESSAGE value="TaskController.java: add a controller that will map a view to a repository based on the user's interactivity the app" />
+    <MESSAGE value="TaskController.java: make final since we don't want the user to have access to it" />
+    <option name="LAST_COMMIT_MESSAGE" value="TaskController.java: make final since we don't want the user to have access to it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
