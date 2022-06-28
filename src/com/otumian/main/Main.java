@@ -47,8 +47,7 @@ public class Main {
         int option = 6;
 
         try {
-            option = scanner.nextInt();
-            scanner.nextLine(); // So that the cursor will be taken to the next line
+            option = Integer.parseInt(scanner.nextLine());
         } catch (Exception e) {
             System.out.println("Please enter a valid option");
         }

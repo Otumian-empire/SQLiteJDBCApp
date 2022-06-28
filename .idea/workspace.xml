@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="create table in the controller constructor">
-      <change afterPath="$PROJECT_DIR$/src/com/otumian/main/Main.java" afterDir="false" />
+    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="Add main drive code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/otumian/main/TaskView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/TaskView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +34,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindowDB Browser.ShowToolbar": "false",
-    "last_opened_file_path": "/home/otumian/java jars/sqlite-jdbc-3.36.0.3.jar",
+    "last_opened_file_path": "/home/otumian/Projects/others/SQLiteJDBCApp",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.48045978",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.general"
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Main">
@@ -283,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656360984547</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add main drive code">
+      <created>1656361885094</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1656361885094</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,7 +325,8 @@
     <MESSAGE value="update app file" />
     <MESSAGE value="add repository to create a table" />
     <MESSAGE value="create table in the controller constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="create table in the controller constructor" />
+    <MESSAGE value="Add main drive code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add main drive code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

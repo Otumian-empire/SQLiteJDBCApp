@@ -32,8 +32,8 @@ public class TaskView {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter id: ");
-        int id = scanner.nextInt();
-        scanner.nextLine(); // So that the cursor will be taken to the next line
+        int id = Integer.parseInt(scanner.nextLine());
+        // So that the cursor will be taken to the next line
 
         input.put("id", id);
 
@@ -48,11 +48,7 @@ public class TaskView {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter id: ");
-        int id = scanner.nextInt();
-        scanner.nextLine();
-
-        // the extra scanner.nextLine(); is done to move the cursor to the next line
-        // int id = Integer.parseInt(scanner.nextLine());
+        int id = Integer.parseInt(scanner.nextLine());
 
         System.out.print("Enter title: ");
         String title = scanner.nextLine();
@@ -70,9 +66,6 @@ public class TaskView {
     }
 
     public static String printTask(Task task) throws SQLException {
-        return "Task(" + task.getId() + ")\n" +
-                "-----------------------\n" +
-                task.getTitle() + "\n" +
-                task.getDescription() + "\n";
+        return "Task(" + task.getId() + ")\n" + "-----------------------\n" + task.getTitle() + "\n" + task.getDescription() + "\n";
     }
 }
