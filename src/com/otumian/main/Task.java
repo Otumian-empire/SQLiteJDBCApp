@@ -3,7 +3,7 @@ package com.otumian.main;
 public class Task {
     private int id = 0;
     private String title = "";
-    private String description ="";
+    private String description = "";
 
     public Task() {
     }

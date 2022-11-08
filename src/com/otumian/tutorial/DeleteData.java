@@ -9,7 +9,6 @@ import java.sql.SQLException;
 
 public class DeleteData {
     public DeleteData() {
-
     }
 
     public static void main(String[] args) {

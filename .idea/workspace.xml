@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="Add main drive code">
+    <list default="true" id="fa416985-b3c5-423a-b9d3-4ada1dba9398" name="Changes" comment="Patch: replace all scanner.nextInt() with Integer.parseInt(scanner.nextLine(())">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/otumian/main/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/main/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/otumian/tutorial/CreateTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/tutorial/CreateTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/otumian/tutorial/DeleteData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/tutorial/DeleteData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/otumian/util/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/otumian/util/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,20 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowDB Browser.ShowToolbar": "false",
-    "last_opened_file_path": "/home/otumian/Projects/others/SQLiteJDBCApp",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.48045978",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowDB Browser.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/otumian/Projects/others/SQLiteJDBCApp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.48045978&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="InsertData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.otumian.tutorial.InsertData" />
@@ -288,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656361885094</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Patch: replace all scanner.nextInt() with Integer.parseInt(scanner.nextLine(())">
+      <created>1656420910121</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1656420910121</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,7 +337,8 @@
     <MESSAGE value="add repository to create a table" />
     <MESSAGE value="create table in the controller constructor" />
     <MESSAGE value="Add main drive code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add main drive code" />
+    <MESSAGE value="Patch: replace all scanner.nextInt() with Integer.parseInt(scanner.nextLine(())" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patch: replace all scanner.nextInt() with Integer.parseInt(scanner.nextLine(())" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
